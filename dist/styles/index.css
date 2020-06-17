@@ -1,0 +1,140 @@
+@import url(./reset.css);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: normal 14px/1.5 "Roboto", "Noto Sans KR", sans-serif !important;
+	position: relative;
+}
+
+.container {
+	height: 900px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+.container:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.clear:after, .header__menu:after {
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+.one {
+	background-color: orange;
+	color: white;
+}
+
+.to {
+	width: 1000px;
+	height: 800px;
+	color: gold;
+}
+
+.three {
+	background-color: #CAC593;
+}
+
+.header__menu {
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px 80px;
+}
+
+.header__title {
+	float: left;
+	font-weight: bold;
+	margin-left: 22%;
+	font-size: 40px;
+	letter-spacing: -0.08rem;
+}
+
+.header__title--size {
+	font-size: 30px;
+}
+
+.header__sns {
+	float: right;
+	font-size: 36px;
+	margin: 6px 22% 0 0;
+}
+
+.icon {
+	margin: 0 10px;
+}
+
+.header__subtitle {
+	text-align: left;
+	padding-top: 90px;
+	margin-left: 22%;
+	font-size: 84px;
+	font-weight: bold;
+	letter-spacing: -0.38rem;
+	line-height: 96px;
+	text-shadow: -1px 0 black, 0 1px black, 3px 0 black, 0 -3px black;
+}
+
+.section__two-title {
+	text-align: left;
+	padding-top: 248px;
+	margin-left: 22%;
+	font-size: 84px;
+	font-weight: bold;
+	letter-spacing: -0.38rem;
+	line-height: 96px;
+	text-shadow: -3px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
+	color: lightblue;
+}
+
+.section__two-subtitle {
+	text-align: left;
+	padding-top: 40px;
+	margin-left: 22%;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.section__two-note {
+	text-align: left;
+	padding-top: 20px;
+	margin-left: 23%;
+	font-size: 12px;
+}
+
+.section__three-title {
+	text-align: left;
+	padding-top: 248px;
+	margin-left: 22%;
+	font-size: 84px;
+	font-weight: bold;
+	letter-spacing: -0.38rem;
+	line-height: 96px;
+	color: white;
+}
+
+.section__three-subtitle {
+	text-align: left;
+	padding-top: 40px;
+	margin-left: 22.5%;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+.section__three-note {
+	text-align: left;
+	padding-top: 20px;
+	margin-left: 22.5%;
+	font-size: 14px;
+	color: white;
+}
